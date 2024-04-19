@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: #262626;
+}
+.circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.facearea {
+  width: 300px;
+  height: 300px;
+  background-color: rgb(255, 255, 67);
+  position: relative;
+  border-radius: 50%;
+  box-shadow: orange 1px 1px 20px;
+  transition: 0.5s;
+}
+
+.lefteye {
+  width: 50px;
+  height: 80px;
+  background-color: #262626;
+  border-radius: 140px;
+  position: absolute;
+  top: 40px;
+  left: 75px;
+}
+.righteye {
+  width: 50px;
+  height: 80px;
+  background-color: #262626;
+  border-radius: 140px;
+  position: absolute;
+  top: 40px;
+  right: 75px;
+}
+.mouth {
+  width: 200px;
+  height: 70px;
+  border: 10px solid #262626;
+  border-top: none;
+  background-color: #262626;
+  border-radius: 0 0 120px 120px/ 0 0 90px 90px;
+  position: absolute;
+  left: 50px;
+  bottom: 50px;
+}
+.facearea:hover {
+  background-color: yellow;
+  box-shadow: rgb(0, 255, 242) 1px 1px 20px;
+}
+.facearea:hover .lefteye {
+  background-color: black;
+}
+.facearea:hover .righteye {
+  background-color: black;
+}
+/* .lefteye:hover {
+  background-color: burlywood;
+}
+.righteye:hover {
+  background-color: burlywood;
+} */
