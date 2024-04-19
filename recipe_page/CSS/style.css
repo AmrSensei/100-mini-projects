@@ -1,0 +1,226 @@
+body{
+    background-color: hsl(30, 54%, 90%);
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+.horizontal-line{
+    height: 0.06px;
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0.186);
+    margin-bottom: 20px;
+}
+.mybox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    max-width: 550px;
+    border-radius: 15px;
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    /* padding: 20px; */
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: white;
+}
+.the_image img
+{
+    width: 470px;
+    max-width: 490px;
+    border-radius: 7px;
+    background-color: white;
+    margin: 20px;
+}
+
+.title{
+    align-self: flex-start;
+    margin-left: 30px;
+    margin-bottom: 15px;
+    color: hsl(24, 5%, 18%);
+    font-family: "Young Serif", serif;
+    font-size: 27px ;
+    font-weight: 1200px;
+}
+.description{
+    align-self: flex-start;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    color: hsl(30, 10%, 34%);
+    font-family: "Outfit", sans-serif;
+    font-size: 12px ;
+    font-weight: 450;
+}
+.timings{
+    display: flex;
+    justify-content:flex-start;
+    flex-flow: column;
+    width: 420px;
+    background-color: hsl(330, 100%, 98%);
+    padding: 20px;
+    padding-left: 30px;
+    margin: 23px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    color: hsl(30, 10%, 34%);
+
+}
+.timings_title{
+    color: hsl(332, 51%, 32%);
+    font-family: "Outfit", sans-serif;
+    font-size: 18px ;
+    font-weight: 600;
+    letter-spacing: 0px ;
+}
+.timings ul{
+    padding-left: 17px;
+    color: hsl(332, 51%, 32%);
+    font-weight: 10;
+}
+
+.timing_header{
+    display: inline-block;
+    color: hsl(30, 10%, 34%);
+    font-family: "Outfit", sans-serif;
+    font-size: 14px ;
+    font-weight: 600;
+    letter-spacing: 0px ;
+    padding-left: 20px;
+}
+
+.timings_itslef{
+    display: inline-block;
+    color: hsl(30, 10%, 34%);
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-size: 13px ;
+}
+.ingred{
+    width: 470px;
+    display: flex;
+    justify-content:flex-start;
+    flex-flow: column;
+    border-bottom: 3px;
+}
+.ingred_title{
+    color: hsl(14, 45%, 36%);
+    font-family: "Young Serif", serif;
+    font-size: 22px ;
+    font-weight: 450;
+    padding-left: 10px;
+}
+.ingred ul{
+    color: hsl(30, 10%, 34%);
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-size: 14px ;
+    line-height: 25px;
+}
+.Instructions{
+    width: 500px;
+    display: flex;
+    justify-content:flex-start;
+    flex-flow: column;
+}
+
+.timing_header{
+    display: inline-block;
+    color: hsl(30, 10%, 34%);
+    font-family: "Outfit", sans-serif;
+    font-size: 14px ;
+    font-weight: 600;
+    letter-spacing: 0px ;
+    padding-left: 20px;
+}
+
+.timings_itslef{
+    display: inline-block;
+    color: hsl(30, 10%, 34%);
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-size: 13px ;
+}
+.instructions_title{
+    color: hsl(14, 45%, 36%);
+    font-family: "Young Serif", serif;
+    font-size: 22px ;
+    font-weight: 450;
+    padding-left: 15px;
+}
+.fml
+{
+    display: inline-block;
+    color: hsl(30, 10%, 34%);
+    font-family: "Outfit", sans-serif;
+    font-size: 14.5px ;
+    font-weight: 600;
+    padding-left: 10px;   
+}
+.Instructions ol{
+    display: inline-block;
+    color: hsl(30, 10%, 34%);
+    font-family: "Outfit", sans-serif;
+    font-weight: 500;
+    font-size: 13px ; 
+    line-height: 20px;
+}
+.Nutrition{
+    width: 500px;
+    display: flex;
+    justify-content:flex-start;
+    flex-flow: column;
+}
+.Nutrition-title{
+    color: hsl(14, 45%, 36%);
+    font-family: "Young Serif", serif;
+    font-size: 22px ;
+    font-weight: 450;
+    padding-left: 15px;
+}
+.Nutrition-description{
+    align-self: flex-start;
+    margin-left: 17px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-top: 14px;
+    color: hsl(30, 10%, 34%);
+    font-family: "Outfit", sans-serif;
+    font-size: 13px ;
+    font-weight: 450;
+}
+.what{
+    display: inline-block;
+    width: 50%;
+    margin-left: 30px;
+    color: hsl(14, 45%, 36%);
+    font-size: 13px ;
+    font-family: "Outfit", sans-serif;
+    font-weight: 450;
+}
+.value{
+    display: inline-block;
+    color: hsl(14, 45%, 36%);
+    font-size: 13px ;
+    font-family: "Outfit", sans-serif;
+    font-weight: 650;
+
+}
+@media (max-width: 1000px) {
+    .mybox{
+        display:contents;
+    }
+    .ingred_title .Nutrition-title .instructions_title{
+        text-align: center;
+    }
+}
+/* - White: hsl(0, 0%, 100%)
+- Rose White: hsl(330, 100%, 98%)
+- Eggshell: hsl(30, 54%, 90%)
+- Light Grey: hsl(30, 18%, 87%)
+- Wenge Brown: hsl(30, 10%, 34%)
+- Dark Charcoal: hsl(24, 5%, 18%)
+- Nutmeg: hsl(14, 45%, 36%)
+- Dark Raspberry: hsl(332, 51%, 32%) */
