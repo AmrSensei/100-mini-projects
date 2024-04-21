@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: "poppins", sans-serif;
+}
+body {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.containter {
+  margin-top: 50px;
+  padding: 20px 60px 40px 40px;
+  border-radius: 8px;
+  width: 70%;
+  /* box-shadow: 0 5px 10px rgba(255, 255, 255, 0.2); */
+  background-image: url(../Images/1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.containter .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.containter .content .left_side {
+  width: 25%;
+  height: 100%;
+}
+.containter .content .rightside {
+  margin-left: 75px;
+}
+.containter .content .left_side .details {
+  margin: 14px;
+  text-align: center;
+}
+.containter .content .left_side .details i {
+  font-size: 30px;
+  color: rgb(254, 188, 188);
+  margin-bottom: 10px;
+}
+.containter .content .left_side .details .topic {
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(253, 222, 222);
+}
+.containter .content .left_side .details .textone,
+.containter .content .left_side .details .texttwo {
+  font-size: 14px;
+  color: rgba(253, 222, 222, 0.755);
+}
+.containter .content .rightside .messageus {
+  font-size: 23px;
+  font-weight: 600;
+  color: rgb(253, 222, 222);
+}
+.containter .content .rightside p {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(253, 222, 222);
+}
+.containter .content .rightside .inputbox {
+  width: 100%;
+  height: 50px;
+  margin: 12px 0;
+}
+.containter .content .rightside .inputbox input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 6px;
+  background-color: rgb(253, 222, 222);
+  padding: 0 15px;
+}
+/* .right-side p {
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+} */
+.containter .content .rightside .inputbox textarea {
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  /* border: none; */
+  border-radius: 6px;
+  background-color: rgb(253, 222, 222);
+  padding: 0 15px;
+  resize: none;
+}
+/* .right-side .button {
+  display: inline-block;
+  margin-top: 12px;
+} */
+.containter .content .rightside .messagebox {
+  min-height: 110px;
+}
+.rightside .button button {
+  color: black;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  background: rgb(253, 222, 222);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.rightside .button button:hover {
+  background-color: rgb(246, 175, 175);
+}

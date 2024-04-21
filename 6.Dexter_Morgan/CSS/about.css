@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Jersey+10&family=Jersey+25&family=Kalam:wght@300;400;700&family=Luckiest+Guy&family=Macondo&family=Merienda:wght@300..900&display=swap");
+.box {
+  width: 1000px;
+  height: 450px;
+  position: fixed;
+  top: 22%;
+  left: 17%;
+  /* padding: 5rem 9% 0 9%; */
+  color: white;
+  display: flex;
+  /* background-color: rgba(204, 17, 0, 0.123); */
+  /* background-color: rgba(204, 17, 0, 0.31); */
+  background-color: #cc110019;
+  /* background-image: url(../Images/1.jpg); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+}
+.box .content h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-shadow: 2.5px 2.5px 2px #000, -2.5px 2.5px 2px #000, -2.5px -2.5px 0 #000,
+    2.5px -2.5px 0 #000;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.box .content {
+  /* align-self: flex-start;
+  justify-content: flex-start; */
+  margin: 30px;
+}
+.box .content p {
+  color: rgb(236, 200, 180);
+  /* margin: 40px; */
+  font-size: 18px;
+  margin-top: 40px;
+  margin-left: 20px;
+  font-weight: 600;
+  max-width: 90%;
+  align-self: center;
+  justify-self: center;
+  font-family: "Merienda", cursive;
+  /* text-shadow: 0.7px 0.7px 2px #000, -0.7px 0.7px 2px #000, -0.7px -0.7px 0 #000,
+    0.7px -0.7px 0 #000; */
+}
+.box img {
+  /* width: 30px; */
+  justify-self: flex-end;
+  align-self: center;
+  transition: 0.3s;
+  border-radius: 40%;
+  padding-right: 30px;
+}

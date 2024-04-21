@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Jersey+10&family=Jersey+25&family=Kalam:wght@300;400;700&family=Luckiest+Guy&family=Macondo&family=Merienda:wght@300..900&display=swap");
+
+body {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  color: black;
+  font-family: "Merienda", cursive;
+}
+.card_container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 150px;
+}
+.card {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  width: 340px;
+  background-color: #cc110019;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  background-image: url(../Images/1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 23px;
+  /* display: flex;
+  justify-content: center; */
+  transition: 1s;
+  border: 2px solid white;
+}
+.card_container .card:hover {
+  width: 370px;
+  cursor: pointer;
+  /* transform: scale(1.07); */
+  transform: rotate(1deg) scale(1.1);
+}
+.card img {
+  width: 60%;
+  /* justify-self: flex-start; */
+  height: auto;
+  border-radius: 50%;
+  margin-top: 20px;
+  border: 4px solid black;
+}
+.card_content {
+  padding: 16px;
+}
+.card_content h3 {
+  font-size: 26px;
+  margin-bottom: 8px;
+  text-align: center;
+  color: white;
+  text-shadow: 2.7px 2.7px 2px #000, -2.7px 2.7px 2px #000, -2.7px -2.7px 0 #000,
+    2.7px -2.7px 0 #000;
+  transition: 1s;
+}
+.card_content p {
+  font-size: 16px;
+  line-height: 1.3;
+  text-align: center;
+  /* color: rgb(62, 16, 16); */
+  color: rgb(228, 213, 204);
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-family: "Merienda", cursive;
+  transition: 1s;
+}
+.card:hover .card_content p {
+  font-size: 17px;
+}
+.card:hover .card_content h3 {
+  font-size: 28px;
+}

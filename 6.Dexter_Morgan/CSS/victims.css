@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Jersey+10&family=Jersey+25&family=Kalam:wght@300;400;700&family=Luckiest+Guy&family=Macondo&family=Merienda:wght@300..900&display=swap");
+
+body {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  color: black;
+  font-family: "Merienda", cursive;
+}
+.text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 300px;
+}
+.text h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: rgb(218, 50, 50);
+  background-image: url(../Images/1.jpg);
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
