@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: "poppins", sans-serif;
+  /* color: black; */
+  text-decoration: none;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 62.5%;
+  padding: 10px;
+  /* background-image: url(/images/wood-1866667_1920.jpg); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+  background-color: rgba(169, 159, 16, 0.216);
+}
+.header {
+  position: fixed;
+  margin-left: 60px;
+  margin-top: 20px;
+  background-color: rgba(80, 9, 9, 0.277);
+  top: 0;
+  left: 0;
+  width: 90%;
+  max-height: 10px;
+  padding: 2rem 9%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 100;
+  border-radius: 30px;
+}
+.header .logo {
+  color: black;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.header .navbar a {
+  color: black;
+
+  font-size: 1rem;
+  font-weight: 500;
+  margin-right: 2rem;
+  transition: 0.3;
+}
+.card_container {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 70px;
+  /* flex-wrap: wrap; */
+}
+.card {
+  width: 300px;
+  height: 400px;
+  padding: 2rem 1rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+  /* flex-flow: column; */
+  align-items: flex-end;
+  /* box-shadow: 0 7px 10px rgba(0, 0, 0, 0.2); */
+  transition: 0.5s ease-in-out;
+  margin: 10px;
+}
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 7px;
+}
+.card:hover {
+  transform: translateY(10px) scale(1.05);
+  z-index: 100;
+}
+.card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to bottom,
+    rgba(37, 9, 9, 0.345),
+    rgba(0, 0, 0, 0.89)
+  );
+  z-index: 2;
+  transition: 0.5s;
+  opacity: 0;
+}
+.card:hover::before {
+  opacity: 1;
+}
+.card .info {
+  position: relative;
+  z-index: 3;
+  color: white;
+
+  opacity: 0;
+  transform: translateY(30px);
+  transition: 0.7s;
+}
+.card:hover .info {
+  opacity: 1;
+  transform: translateY(0px);
+}
+.card .info h1 {
+  margin: 0px;
+  text-align: center;
+  font-size: 21px;
+}
+.card .info p {
+  font-size: 13px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.card .info .btn {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  background-color: white;
+  color: black;
+  font-size: 11px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+}
