@@ -1,0 +1,80 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"); */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  /* background-color: rgb(220, 220, 220); */
+  background-color: #040d12;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.box {
+  width: 30%;
+  height: 55%;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 10px 10px 10px -10px #11111179;
+  background-color: #fef9cc;
+  border: 0.5px solid black;
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+  /* box-shadow: 0.5px 0.5px 0.5px 0.5px rgb(132, 130, 130); */
+}
+.box .tempconv {
+  color: #ff204e;
+  border: 3px solid black;
+  padding:10px;
+  border-radius: 20px;
+  /* color: rgb(39, 39, 215); */
+  font-weight: 100;
+  margin-bottom: 40px;
+  font-family: "Luckiest Guy";
+}
+.box .number {
+  padding: 3px;
+  width: 30%;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+.box .conver {
+  margin-bottom: 7px;
+  font-size: 18px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.box .button {
+  margin-top: 40px;
+  padding: 8px;
+  border: 0.5px solid black;
+  width: 120px;
+  height: 40px;
+  font-size: 20px;
+  border-radius: 10px;
+  background-color: #07153e;
+  font-family: "Luckiest Guy";
+  color: rgb(252, 241, 241);
+  transition: 0.3s ease-in-out;
+}
+
+.box .button:hover {
+  cursor: pointer;
+  transform: scale(1.04);
+  background-color: #bdbdbd;
+  color: black;
+}
