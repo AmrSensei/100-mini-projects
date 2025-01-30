@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  /* background-color: rgb(220, 220, 220); */
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f9e5f3;
+  /* color: #00ff9c; */
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.header {
+  margin-top: -150px;
+  font-size: 44px;
+  margin-bottom: 30px;
+}
+.checker{
+  margin-bottom: 10px;
+}
+.checker label {
+  font-size: 25px;
+  font-weight: 700;
+  /* color: #26355D; */
+  padding-left: 10px;
+}
+h1{
+  font-size: 46px;
+}
+.checker input[type = "number"]
+{
+  margin-left: 20px;
+  width: 100px;
+  padding: 6px 20px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+  border: 1px groove black;
+  border-radius: 10px;
+}
+.button{
+  margin-top: 10px;
+  /* color: white; */
+  background-color: #69fd00;
+  padding: 10px 20px;
+  border-radius: 15px;
+  font-size: 20px;
+  font-weight: 600;
+  transition: 0.4s ease-in-out;
+  margin-bottom: 40px;
+}
+.button:hover{
+  cursor: pointer;
+  background-color: #fafe00;
+}

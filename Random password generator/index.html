@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daddy Amr</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="header">Random Password Generator</h1>
+    <div class="checker">
+      <input type="checkbox" id="numbers"/>
+      <label>Do you want your password to contain numbers ?</label>
+    </div>
+    <div class="checker">
+      <input type="checkbox" id="uppercase"/>
+      <label>Do you want your password to contain Uppercase letters ?</label>
+    </div>
+    <div class="checker">
+      <input type="checkbox" id="lowercase"/>
+      <label>Do you want your password to contain Lowercase letters ?</label>
+    </div>
+    <div class="checker">
+      <input type="checkbox" id="symbols"/>
+      <label>Do you want your password to contain symbols ?</label>
+    </div>
+    <div class="checker" >
+      <label>Please Enter the intended password length</label>
+      <input type="number" id="passlen"/>
+    </div>
+    <button class="button" id="btn">
+      Generate Password
+    </button>
+    <h1 id="result"></h1>
+  </body>
+
+  <script src="index.js"></script>
+</html>
