@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: 'LuckiestGuy'; */
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+body {
+  /* background-color: rgb(220, 220, 220); */
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #000000;
+  /* color: #00ff9c; */
+  /* font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif; */
+}
+.clock {
+  color: #16ff00;
+  font-weight: 800;
+  font-size: 100px;
+}
